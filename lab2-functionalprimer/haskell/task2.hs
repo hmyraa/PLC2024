@@ -1,3 +1,6 @@
+--Creating simple function that returns string
+onePlusone = "1 + 1 = 2"
+
 main = do
     putStrLn "Welcome to the programme. Please enter your name"
     name <- getLine
@@ -7,3 +10,4 @@ main = do
     putStrLn("Okay" ++ name ++ ", How can we run haskell on GitPod?")
     answer <-getLine
     putStrLn "Yes, that is correct!"
+    putStrLn(onePlusone)
